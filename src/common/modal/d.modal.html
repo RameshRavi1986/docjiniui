@@ -1,0 +1,21 @@
+<!--<ion-footer>
+   <ion-toolbar>
+  <button ion-button full (click) = "takePicture()">Take Picture</button>
+  <button ion-button full (click) = "openGallery()">Gallery</button>
+	</ion-toolbar>
+</ion-footer>-->
+
+<ion-header>
+        <ion-navbar>
+            <ion-title>Choose the option</ion-title>
+            <ion-buttons end>
+                <button ion-button icon-only (click)="closeModal()">
+                    <ion-icon item-right name="ios-close-outline"></ion-icon>
+                </button>
+            </ion-buttons>
+        </ion-navbar>
+</ion-header>
+<ion-content>
+<button ion-button full (click) = "takePicture()">Take Picture</button>
+<button ion-button full (click) = "openGallery()">Gallery</button>
+</ion-content>

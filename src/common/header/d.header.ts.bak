@@ -1,0 +1,11 @@
+import { Component, Input } from '@angular/core';
+import { MenuController } from 'ionic-angular';
+@Component({
+    selector: 'd-header',
+    templateUrl: './d.header.html',
+})
+
+export class AppHeaderComponent {
+    @Input() title: string;
+     constructor(public menuCtrl: MenuController) {}
+}
